@@ -1501,6 +1501,10 @@ footer .credits a {
   margin: 0 auto 0 auto;
 }
 
+.kozepre{
+  text-align: center;
+}
+
 .euoldal {
   height: 60vh;
   position: relative;
