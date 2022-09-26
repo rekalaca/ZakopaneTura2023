@@ -1518,7 +1518,8 @@ footer .credits a {
   padding-top: 180px;
 }
 .szamlalo{
-  font-size: larger;
+  font-size: 20px;
+  color: #008000;
   font-weight: bold;
   font-family: 'Orbitron', sans-serif;
 }
