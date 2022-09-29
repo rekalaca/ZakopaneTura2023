@@ -709,7 +709,7 @@ a:hover {
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
-  margin: 0px;
+  margin: 15px;
 }
 
 .navbar-mobile .dropdown ul {
