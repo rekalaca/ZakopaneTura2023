@@ -93,7 +93,6 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -716,7 +715,6 @@ a:hover {
 .navbar-mobile .dropdown ul {
   position: static;
   display: none;
-  margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
   opacity: 1;
