@@ -117,7 +117,7 @@ a:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .display-table {
@@ -1077,7 +1077,7 @@ a:hover {
 }
 
 .testimonial-box .author-test {
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .testimonial-box .author-test img {
