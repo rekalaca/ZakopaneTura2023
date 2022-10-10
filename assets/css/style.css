@@ -1000,7 +1000,7 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 /*--------------------------------------------------------------
@@ -1544,4 +1544,9 @@ footer .credits a {
 width: 50%;
 }
 
+#furdok{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
 
