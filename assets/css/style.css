@@ -843,11 +843,11 @@ a:hover {
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 @media (min-width: 767px) {
