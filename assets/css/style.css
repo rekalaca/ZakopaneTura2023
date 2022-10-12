@@ -1512,10 +1512,11 @@ footer .credits a {
 }
 
 .eu-title {
-  color: #FFA500;
+  color: #dcd6ca;
   font-weight: 600;
   font-size: 3rem;
   padding-top: 180px;
+  text-shadow: 2px 2px red;
 }
 .szamlalo{
   font-size: 20px;
