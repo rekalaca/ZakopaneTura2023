@@ -11,7 +11,7 @@
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Englebert', sans-serif;
   
 }
 
@@ -1463,27 +1463,7 @@ a:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-footer {
-  text-align: center;
-  color: #fff;
-  padding: 25px 0;
-  background: #348d1e;
-}
 
-footer .copyright {
-  margin-bottom: 0.3rem;
-}
-
-footer .credits {
-  margin-bottom: 0;
-}
-
-footer .credits a {
-  color: #fff;
-}
 
 /*Saját*/
 .szoveg {
@@ -1551,3 +1531,60 @@ width: 50%;
   text-align: justify;
 }
 
+.meretezve{
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+}
+
+#foot{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Special Elite', cursive;
+}
+.feher{
+  color: white;
+  font-size: 24px;
+  font-family: 'Special Elite', cursive;
+  background-color: red; 
+  opacity: 0.7;
+  border-radius: 15px;
+}
+.logos{
+  border-radius: 30px;
+  border: 2px solid rgb(215, 10, 10);
+}
+.bekezd{
+  margin-left: 20px;
+  color: #d3ab29;
+  
+}
+
+/*--------------------------------------------------------------
+# Header Social Links
+--------------------------------------------------------------*/
+.header-social-links {
+  margin: 0 0 0 30px;
+}
+
+.header-social-links a {
+  color: #c92424;
+  padding-left: 8px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+}
+
+.header-social-links a i {
+  line-height: 0;
+}
+
+.header-social-links a:hover {
+  color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .header-social-links {
+    margin: 0 15px 0 0;
+  }
+}
