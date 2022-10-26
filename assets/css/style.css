@@ -1606,8 +1606,7 @@ width: 50%;
 }
 
 .pirosszam{
-  width: 450px;
-  margin: 0 auto 0 auto;
+  margin-top: -80px;
 }
 .menus{
   font-size: 24px;
