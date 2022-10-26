@@ -1604,3 +1604,15 @@ width: 50%;
   font-family: 'Economica', sans-serif;
   font-size: 22px;
 }
+
+.pirosszam{
+  width: 450px;
+  margin: 0 auto 0 auto;
+}
+.menus{
+  font-size: 24px;
+  color: red;
+  padding-top: 15px;
+  text-decoration:underline;
+  font-weight: bold;
+}

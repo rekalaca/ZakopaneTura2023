@@ -43,8 +43,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Economica&display=swap" rel="stylesheet">
 
 
   <!-- Template Main CSS File -->
@@ -63,10 +63,11 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
+      <nav id="navbar" class="navbar"><p class="menus">Menü:</p> 
 
-      <nav id="navbar" class="navbar">
+      
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Főlap</a></li>
+          <li><a class="nav-link scrollto" href="#hero">Főlap</a></li>
           <li><a class="nav-link scrollto" href="#about">Az Apartman</a></li>
           <li><a class="nav-link scrollto" href="#services">Információk</a></li>
           <li><a class="nav-link scrollto " href="etterem.html">Éttermek</a></li>
@@ -77,6 +78,8 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
+      
+
     </div>
   </header><!-- End Header -->
 
@@ -86,8 +89,10 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-w3g3" class="countdown-timer" data-timezone="Europe/Budapest" data-language="hu" data-textcolor="#ffffff" data-date="2023-02-09 07:00" data-background="#de1818" data-unitscolor="#ffffff">indulásig...</a>
+          <div class="pirosszam"><script src="https://cdn.logwork.com/widget/countdown.js"></script>
+          <a href="https://logwork.com/countdown-w3g3" class="countdown-timer" data-timezone="Europe/Budapest"
+            data-language="hu" data-textcolor="#ffffff" data-date="2023-02-09 07:00" data-background="#de1818"
+            data-unitscolor="#ffffff">Hátra van még...</a></div>
           <h1 class="hero-title mb-4">Zakopane - Téli túra a Magas-Tátrában</h1>
           <p class="hero-subtitle"><span class="typed"
               data-typed-items="2023. február 9. - 12., Menet az igazi télbe...,ott biztos fog szánkózni Zorka Liza és Lackó..., De még a felnőttek is... :-)"></span>
@@ -291,43 +296,13 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-alarm" style='color: blue'></i></span>
+                <a href="https://arfolyamcentrum.hu/PLN" target="_blank"><span class="ico-circle"><i class="bi bi-currency-exchange" style='color: blue'></i></span></a>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Hátravan még...</h2>
-                <p class="szoveg kozepre">Az utazásig hátralévő időt mutatja a számláló:</p>
-                <p id="demo" class="foszamlalo"></p>
-                <script>
-                  // Set the date we're counting down to
-                  var countDownDate = new Date("Feb 9, 2023 07:00:00").getTime();
-
-                  // Update the count down every 1 second
-                  var x = setInterval(function () {
-
-                    // Get today's date and time
-                    var now = new Date().getTime();
-
-                    // Find the distance between now and the count down date
-                    var distance = countDownDate - now;
-
-                    // Time calculations for days, hours, minutes and seconds
-                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                    // Output the result in an element with id="demo"
-                    document.getElementById("demo").innerHTML = days + " nap  " + hours + " óra  "
-                      + minutes + " p  " + seconds + " mp ";
-
-                    // If the count down is over, write some text 
-                    if (distance < 0) {
-                      clearInterval(x);
-                      document.getElementById("demo").innerHTML = "EXPIRED";
-                    }
-                  }, 1000);
-                </script>
-
+                <h2 class="s-title">Deviza árfolyam</h2>
+                <p class="szoveg kozepre">A Magyar Nemzeti Bank lengyel Zloty aktuális napi devizaárfolyama <a href="https://arfolyamcentrum.hu/PLN" target="_blank">ITT</a> érhető el!</p>
+                
+               
               </div>
             </div>
           </div>
@@ -755,7 +730,7 @@
                           Az összesen 4291,59 méter hosszú pálya két szakaszból áll. Az alsó állomás Zakopane közelében,
                           Kuźnicében, a tengerszint felett 1027 méteren van. A középső állomás – Myślenickie Turnie –
                           1352 méteren fekszik.A második szakasz a
-                          lengyel–szlovák határhoz közeli Kasprowy-csúcson, 1959 méter magasan végződik. 
+                          lengyel–szlovák határhoz közeli Kasprowy-csúcson, 1959 méter magasan végződik.
                         </p>
                       </div>
                     </div>
@@ -809,12 +784,12 @@
     <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/footerpicture.jpg)">
       <div class="container position-relative">
         <div class="row">
-          <div class="container">            
+          <div class="container">
             <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
               <div class="col-8 col-md-4 align-items-center">
                 <img src="assets/img/logom.PNG" alt="" class="logos responsive">
-                <span class="bekezd">created the website: &copy; 2022 <a
-                    href="mailto:rekalaca@gmail.com"> rekalaca<sup><span>&#174;</span></sup></a></span>
+                <span class="bekezd">created the website: &copy; 2022 <a href="mailto:rekalaca@gmail.com">
+                    rekalaca<sup><span>&#174;</span></sup></a></span>
               </div>
               <div class="col-4 col-md-4 header-social-links d-flex align-items-center">
                 <a href="https://www.facebook.com/rekalaca" target="_blank" class="facebook"><i class="bi bi-facebook"
