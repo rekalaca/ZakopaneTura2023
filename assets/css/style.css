@@ -1498,6 +1498,14 @@ a:hover {
   padding-top: 180px;
   text-shadow: 2px 2px red;
 }
+.kissebb{
+  color: #dcd6ca;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-top: 180px;
+  text-shadow: 2px 2px red;
+
+}
 .szamlalo{
   font-size: 20px;
   color: #008000;
@@ -1526,9 +1534,11 @@ width: 50%;
 }
 
 #furdok{
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 30px;
   text-align: justify;
+  width: 90%;
+  margin: 0 auto 0 auto;
 }
 
 .meretezve{
@@ -1630,4 +1640,11 @@ width: 50%;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.koz{
+  border-color: #0062d3;
+}
+.szeles{
+  width: 100%;
 }
