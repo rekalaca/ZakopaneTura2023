@@ -1466,6 +1466,9 @@ a:hover {
 
 
 /*Saját*/
+.balos{
+  padding-left: 10px;
+}
 .szoveg {
   font-size: 16px;
   text-align: justify;
