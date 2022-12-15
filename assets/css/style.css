@@ -1661,3 +1661,13 @@ width: 50%;
 .bolt{
   margin-bottom: 20px;
 }
+.food{
+ max-width: 600px;
+}
+.rendel{
+  background-color: #b5b57b;
+}
+
+.h5egyeni{
+  font-family: 'Englebert', sans-serif;
+}
