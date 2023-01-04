@@ -1593,6 +1593,9 @@ width: 50%;
   border-radius: 15px;
 
 }
+.kuponkep{
+  max-width: 150px;
+}
 
 /*--------------------------------------------------------------
 # Header Social Links
